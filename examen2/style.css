@@ -1,0 +1,473 @@
+*{
+    font-family: 'Lucida Sans',  Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    height: 100px;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+footer {
+    word-spacing: 10px;
+    display: flex;
+    gap: 20em;
+    justify-content: center;
+    height: 100px;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 10px;
+}
+
+section {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.img-fondo {
+    margin-top: -1.9em;
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("img/tetrisfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(15vh);
+    margin-left: 5em;
+    justify-content: space-around;
+
+}
+
+
+section.sect-historia {
+    margin-top: -1.9em;
+    min-height: 165vh;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section.sect-carrito {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+section.sect-albums {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-merch{
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(15vh);
+    margin-left: 25em;
+    
+}
+
+
+section.sect-merch {
+    min-height: 120vh;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-tours {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-cookies {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-privacidad {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo img {
+
+    height: 80px;
+
+}
+
+.logo2 img {
+
+    height: px !important;
+    
+}
+
+
+
+.carrito img {
+
+    height: 45px;
+
+}
+
+.aMenu {
+
+    font-size: 25px;
+    color: black;
+
+}
+
+.aFooter {
+
+    font-size: 25px;
+    color: black;
+
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav a:hover {
+    background-color: rgb(250, 250, 250);
+    transition: 0.5s ease;
+}
+
+
+.articulo {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.articulo h1 {
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(10vh);
+
+}
+
+.articulo p {
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+}
+
+.formulario-contacto {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(16vh);
+    justify-content: center;
+    display: grid;
+    padding: 40px;
+    border: 0.5px solid blueviolet;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px blueviolet;
+    
+
+}
+
+.card-contacto {
+
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+input {
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 22px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: blueviolet;
+    margin-bottom: 25px;
+}
+
+input:focus-within {
+
+    outline: none;
+    border-color: blueviolet;
+    border-width: 3px;
+}
+
+textarea:focus-within {
+
+    outline: none;
+    border-color: blueviolet;
+    border-width: 3px;
+}
+
+button {
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 90%;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    margin-left: 29%;
+
+    
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(15vh);
+    margin-left: 25em;
+    
+}
+
+.card7{
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(15vh);
+    margin-left: 25em;
+    
+}
+
+.card2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(12vh);
+    margin-left: 28em;
+    margin-top:  10em;
+    
+}
+
+.product-card {
+    max-width: 12em;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px blueviolet;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.product-card h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+.product-card div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card:hover {
+    background-color: rgb(34, 36, 37);
+    color: #fff;
+}
+
+tr{
+    height: 22px;
+}
+
+.td-dia{
+
+    width: 112px; text-align: center; height: 22px; color: white; font-size: 30px;
+    padding: 29px;
+    
+}
+
+.td-ciudad{
+
+    width: 133.219px; text-align: center; height: 22px;  color: white; font-size: 30px;
+}
+
+.td-lugar{
+
+    width: 163.781px; text-align: center; height: 22px;  color: white; font-size: 30px;
+}
+
+.td-boton {
+    width: 112px; text-align: center; height: 22px; font-size: 30px;
+    
+}
+
+.tabla-tours{
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    border-spacing: 0px;
+    transform: translateY(20vh);
+}
+
+
+tbody{
+
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;  
+}
+
+tr:hover {
+    background-color: rgb(56, 58, 59);
+    color: #fff;
+}
+
+.ahref{
+    color: blueviolet;
+}
+
+.cardcookies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; 
+
+}
+
+
+.cookies {
+    width: 40%;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px blueviolet;
+}
+
+
+.cookies h1{
+    text-align: center;
+}
+.cookies p{
+    text-align: justify;
+
+}
+
+.cookies h1{
+    text-align: center;
+    color: #fff;
+}
+
+.cookies h2{
+    color: #fff;
+}
+
+.cookies li{
+    color: #fff;
+}
+
+.cookies p{
+    text-align: justify;
+    color: #fff;
+}
+
+
+.cardprivacidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+
+.privacidad {
+    width: 40%;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px blueviolet;
+}
+
+
+
+
+.privacidad h1{
+    text-align: center;
+    color: #fff;
+}
+
+.privacidad h2{
+    color: #fff;
+}
+
+.privacidad li{
+    color: #fff;
+}
+
+.privacidad p{
+    text-align: justify;
+    color: #fff;
+}
+
